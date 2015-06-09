@@ -111,7 +111,7 @@ h1{
   background-repeat: no-repeat;
   background-position: center top;
   margin-top: 60px;
-  padding-top: 100;
+  padding-top: 100px;
   #padding: 100 1% 0 1%;
   width: 33.3%;
   float: left;
@@ -148,7 +148,7 @@ h2:after{
 
 .education-experience li{
   overflow: hidden;
-  margin: 30 5;
+  margin: 30px 5px;
 }
 
 .education-experience__list{
@@ -165,6 +165,11 @@ h2:after{
   padding-left: 40px;
 }
 
+.photos__list{
+  list-style: none;
+  overflow: hidden;
+}
+  
 .photos__list li{
   float: left;
   width: 25%;
@@ -174,4 +179,59 @@ h2:after{
 .photos__list li img{
   width: 100%;
 }
+
+.get-in-touch__list{
+  list-style: none;
+  overflow: hidden;
+}
+
+.get-in-touch__list li{
+  float: left;
+  padding: 20px;
+}
+
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 130%;
+}
+
+.contact button {
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+}
+
+.box{
+  padding:1px;
+  width: 160px;
+  margin: 15px auto;
+  position: relative;
+  
+}
+
+.contact form{
+  text-align: center;
+}
+.contact input{
+  padding: 8px;
+
+}
+
+.contact label{
+  padding: 8px;
+  position: absolute;
+  text-align: center;
+  right: 105%;
+
+}
+
+
 
