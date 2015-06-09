@@ -220,6 +220,7 @@ h2:after{
 .contact form{
   text-align: center;
 }
+
 .contact input{
   padding: 8px;
 
@@ -233,5 +234,86 @@ h2:after{
 
 }
 
+@media only screen and (max-width : 960px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 
+@media only screen and (max-width : 480px) {
+  ul {
+    padding-left: 0;
+  }
+  
+  h1{
+    font-size: 20px;
+  }
+  
+  h2:after{
+    width: 30%;
+  }
+  
+  .main-nav ul{
+    padding: 1px;
+  }
+  
+  .main-nav ul li{
+    display: block;    
+  }
+  
+  .info-section {
+    padding: 10px;
+  }
+  
+  .whatido__skill{
+    margin: 20px auto;
+    width: 100%;
+  }
+  
+  .whatido__skill li{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .education-experience__list img{
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+  
+  .education-experience__list__description{
+    padding-left: 0;
+  }
+  
+  .education-experience span {
+    display: block;
+  }
+  
+  .photos__list li{
+    width: 100%;
+  }
+  
+  .get-in-touch__list li{
+    width: 50%;
+  }
+  
+  .get-in-touch__list img{
+    width: 90%;
+  }
+  
+  .contact header h2{
+    font-size: 22px;
+  }
+  
+  .contact .box{
+    margin: 15px 0;
+    width: 75%;
+  }
+
+  .contact label{
+    position: static;
+    
+  }
+}
 
