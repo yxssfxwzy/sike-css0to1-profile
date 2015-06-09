@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   #background-image: url(http://uploads.striking.ly/page/images/backgrounds/bg5.jpg);
   background-image: url(http://uploads.strikinglycdn.com/static/backgrounds/abstract/69.jpg);
@@ -21,6 +29,11 @@ body {
   margin-bottom: 10px
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-weight: 300;
+}
+
 h1{
   width: 50%;
   margin: 0 auto;
@@ -30,12 +43,7 @@ h1{
   font-family: 'Open Sans','helvetica',arial,sans-serif;
   text-shadow: 0 2px rgba(0,0,0,0.3);
   margin-bottom: 20px;
-  color: #F8F8FF;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #333;
-  font-weight: 300;
+  color: #FFF8DC;
 }
 
 .container {
@@ -85,8 +93,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .whatido__skill-list{
   list-style: none;
-
- 
 }
 
 .whatido__skill--code {
@@ -105,10 +111,10 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-position: center top;
   margin-top: 60px;
-  padding: 100 1%;
-  width: 31%;
+  padding-top: 100;
+  #padding: 100 1% 0 1%;
+  width: 33.3%;
   float: left;
-  
 }
 
 .whatido__skill h3{
@@ -121,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
 }
 
-.underline:after{
+h2:after{
   border-bottom: 3px solid black;
   content:"";
   display: table;
@@ -138,5 +144,34 @@ h1, h2, h3, h4, h5, h6 {
   display:block;
   clear:both;
   width:10%;
+}
+
+.education-experience li{
+  overflow: hidden;
+  margin: 30 5;
+}
+
+.education-experience__list{
+  list-style: none;
+  
+}
+.education-experience__list img{
+  width: 180px;
+  float: left;
+}
+
+.education-experience__list__description{
+  overflow: hidden;
+  padding-left: 40px;
+}
+
+.photos__list li{
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.photos__list li img{
+  width: 100%;
 }
 
