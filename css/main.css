@@ -1,9 +1,13 @@
 body {
   #background-image: url(http://uploads.striking.ly/page/images/backgrounds/bg5.jpg);
-  background-image: url(http://www.51pptmoban.com/d/file/2014/05/11/1547fb25e896da6fd1b8792e1435b0cc.jpg);
+  background-image: url(http://uploads.strikinglycdn.com/static/backgrounds/abstract/69.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  
+  font-family: 'Open Sans','helvetica',arial,sans-serif;
+  font-weight: 300;
+  #color: #F8F8FF;
 }
 
 .main-header__avatar{
@@ -26,6 +30,12 @@ h1{
   font-family: 'Open Sans','helvetica',arial,sans-serif;
   text-shadow: 0 2px rgba(0,0,0,0.3);
   margin-bottom: 20px;
+  color: #F8F8FF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-weight: 300;
 }
 
 .container {
@@ -36,5 +46,97 @@ h1{
 .main-header{
   margin-top:100px;
   padding: 1px;
-  background-image: url(../img/banner.jpg);
+  background-image: url(../img/test.png);
 }
+
+.main-nav {
+  background-color: #333;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.main-nav ul{
+  margin: 0;
+}
+.main-nav ul li {
+  margin: 10px 25px;
+  display: inline-block;
+}
+
+.main-nav ul li a {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.info-section {
+  background-color: #fff;
+  padding: 30px 60px;
+  text-align: center;
+}
+
+.whatido__skill-list{
+  list-style: none;
+
+ 
+}
+
+.whatido__skill--code {
+  background-image: url(../img/skill-code.png);
+}
+
+.whatido__skill--design {
+  background-image: url(../img/skill-design.png);
+}
+
+.whatido__skill--product {
+  background-image: url(../img/skill-product.png);
+}
+
+.whatido__skill{
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-top: 60px;
+  padding: 100 1%;
+  width: 31%;
+  float: left;
+  
+}
+
+.whatido__skill h3{
+  text-align: center;
+}
+
+.info-section header h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.underline:after{
+  border-bottom: 3px solid black;
+  content:"";
+  display: table;
+  width: 10%;
+  margin: 15px auto;
+}
+
+.info-section__description {
+  font-style: italic;
+}
+
+.clearfix:after {
+  content:"";
+  display:block;
+  clear:both;
+  width:10%;
+}
+
